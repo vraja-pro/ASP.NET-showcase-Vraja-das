@@ -1,0 +1,23 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color:#f2f2f2;
+}
+
+form input.form-control:last-child{
+    margin-bottom:15px;
+}
